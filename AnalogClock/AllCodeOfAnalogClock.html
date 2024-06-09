@@ -1,0 +1,219 @@
+
+<!-- This project raprgent Prabhakar Rajput. -->
+
+<html>
+
+<head>
+	<title> Analog Clock made by Prabh Rajput</title>
+	<style>
+		#outer {
+			height: 200px;
+			width: 200px;
+			border: 1px solid black;
+			border-radius: 100px;
+			background-color: pink;
+			margin: 0 auto;
+			position: relative;
+		}
+
+		.no {
+			width: 5px;
+			font-size: 20px;
+			position: absolute;
+		}
+
+		#xii {
+			top: -2px;
+			right: 107px;
+			font-size: 26px
+		}
+
+		#i {
+			top: 9px;
+			right: 52px;
+		}
+
+		#ii {
+			top: 43px;
+			right: 19px;
+		}
+
+		#iii {
+			top: 86px;
+			right: 9px;
+			font-size: 30px;
+		}
+
+		#iv {
+			bottom: 38px;
+			right: 23px;
+		}
+
+		#v {
+			bottom: 7px;
+			right: 52px;
+		}
+
+		#vi {
+			bottom: -5px;
+			right: 97px;
+			font-size: 28px;
+		}
+
+		#vii {
+			bottom: 5px;
+			left: 52px;
+		}
+
+		#viii {
+			bottom: 33px;
+			left: 18px;
+		}
+
+		#ix {
+			top: 91px;
+			left: 1px;
+			font-size: 28px;
+		}
+
+		#x {
+			top: 46px;
+			left: 10px;
+			font-size: 18px;
+		}
+
+		#xi {
+			top: 11px;
+			left: 43px;
+			font-size: 18px;
+		}
+
+		#inner {
+			height: 140px;
+			width: 140px;
+			border: 1px solid black;
+			border-radius: 70px;
+			margin: 30px auto;
+			background-color: yellow;
+			position: absolute;
+			right: 29px;
+			top: 0px;
+			
+		}
+		#name1{
+			position:absolute;
+			left:28px;
+			top:10px;
+			font-size: medium;
+			justify-content: center;
+		}
+		#name2{
+			position:absolute;
+			left:35px;
+			top:85px;
+			font-size: small;
+			justify-content: center;
+		}
+
+		#point {
+			height: 20px;
+			width: 20px;
+			border-radius: 10px;
+			background-color: red;
+			margin: 60px auto;
+			position: absolute;
+			top: 2px;
+			left: 60px;
+		}
+
+		#hr {
+			transform-origin: bottom;
+			position: absolute;
+			top: 12px;
+			left: 67px;
+			height: 60px;
+			width: 6px;
+			background-color: black;
+		}
+
+		#min {
+			transform-origin: bottom;
+			position: absolute;
+			top: 4px;
+			left: 68px;
+			height: 69px;
+			width: 4px;
+			background-color: green;
+		}
+
+		#sec {
+			transform-origin: bottom;
+			position: absolute;
+			bottom: 69px;
+			left: 69.5px;
+			height: 80px;
+			width: 2px;
+			background-color: red;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="outer">
+		<div class="no" id="xii">12</div>
+		<div class="no" id="i">1</div>
+		<div class="no" id="ii">2</div>
+		<div class="no" id="iii">3</div>
+		<div class="no" id="iv">4</div>
+		<div class="no" id="v">5</div>
+		<div class="no" id="vi">6</div>
+		<div class="no" id="vii">7</div>
+		<div class="no" id="viii">8</div>
+		<div class="no" id="ix">9</div>
+		<div class="no" id="x">10</div>
+		<div class="no" id="xi">11</div>
+		<div class="no" id="inner">
+			<p id="name1">@skPrBoss</p>
+			<p id="name2">made in India</p>
+			<div id="hr"></div>
+			<div id="min"></div>
+			<div id="sec"></div>
+			<div id="point"></div>
+		</div>
+	</div>
+
+	<script>
+		//window.alert("Hii !");
+		// Creating analogClock()  funtion.
+		function analogClock() {
+
+			//creatinng Object of Date class;
+			var dateTime = new Date();
+
+			//getting hourrs, minutes & seconds by using functions of  date class. 
+			var hours = dateTime.getHours();
+			var minutes = dateTime.getMinutes();
+			var seconds = dateTime.getSeconds();
+
+			//calculating degree in hours, minutes & seconds.
+			var angleInHours = (30 * hours) + (minutes / 2);
+			var angleInMinutes = (6 * minutes) + (seconds / 10);
+			var angleInSeconds = (6 * seconds);
+
+			// rotating all niddel 
+			document.getElementById("hr").style.transform = "rotate(" + angleInHours + "deg)";
+			document.getElementById("min").style.transform = `rotate(${angleInMinutes}deg)`;
+			document.getElementById("sec").style.transform = `rotate(${angleInSeconds}deg)`;
+
+			//window.alert("In");
+
+		}
+		setInterval(() => {
+			analogClock();
+		}, 1000)
+		analogClock();
+	</script>
+</body>
+<!-- this Projeck copyright to Prabha Rajput-->
+</html>
+

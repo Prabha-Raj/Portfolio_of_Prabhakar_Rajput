@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Traffic Light</title>
+<!--<link href="trafficlight.css" type="text/css" rel="stylesheet"/>-->
+<style>
+	#tlight{
+	height:400px;
+	width:150px;
+	margin:0 auto;
+	background-color:black;
+	border-radius:80px;
+	border:8px solid gray;
+}
+#red{
+	height:100px;
+	width: 100px;
+	margin:0 auto;
+	background-color:grey;
+	border-radius:200px;
+	border:5px solid gray;
+	margin-top:20px;
+}
+
+#yellow{
+	height:100px;
+	width: 100px;
+	margin:0 auto;
+	background-color:grey;
+	border-radius:200px;
+	border:5px solid gray;
+	margin-top:20px;
+}
+#green{
+	height:100px;
+	width: 100px;
+	margin:0 auto;
+	background-color:grey;
+	border-radius:200px;
+	border:5px solid gray;
+	margin-top:20px;
+}
+
+#line1{
+	height:800px;
+	width:60px;
+	background-color:black;
+	border-radius:20px;
+	margin:-5px auto;
+	
+}
+
+</style>
+
+<script>
+
+window.alert("Please crose the Road when Traffick Light is green only, Otherwise you will punishable !");
+function start(){
+	//alert("in");
+	var red=document.getElementById("red");
+	var yellow=document.getElementById("yellow");
+	var green=document.getElementById("green");
+		//alert("red");
+		//document.getElementById("red").style.backgroundColor="red";
+
+	
+	setTimeout(function (){
+		//alert("yellow");
+		document.getElementById("green").style.backgroundColor="";
+		document.getElementById("red").style.backgroundColor="";
+		document.getElementById("yellow").style.backgroundColor="yellow";
+	},2000);
+	
+	setTimeout(function (){
+		//alert("red");
+		document.getElementById("green").style.backgroundColor="";
+		document.getElementById("yellow").style.backgroundColor="";
+		document.getElementById("red").style.backgroundColor="red";
+		
+	},6000);
+	
+	setTimeout(function (){
+		//alert("green");
+		document.getElementById("red").style.backgroundColor="";
+		document.getElementById("yellow").style.backgroundColor="";
+		document.getElementById("green").style.backgroundColor="green";
+	},9000);
+}
+
+var timer = setInterval(function (){
+	start();
+},20000);
+start();
+</script>
+<!--<script src="trafficlight.js" type="text/javascript" rel="javascript">
+</script>-->
+<!--
+<script src="fake.js" type="text/javascript" rel="javascript">
+</script>
+-->
+
+</head>
+<body>
+
+<div id="tlight">
+<div id="red"></div>
+<div id="yellow"></div>
+<div id="green"></div>
+</div>
+<div id="line1"></div>
+
+<!--<div id="b">
+<span id="start"> press for start &nbsp &nbsp </span><span id="start">&nbsp &nbsp press for stop</span>
+<br/>
+<input class="btn" id="start" type="button" value="start" onclick="start()"/>
+<span>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp </span>
+<input class="btn" id="stop" type="button" value="stop" onclick="stop()"/>
+</div>-->
+</body>
+</html>

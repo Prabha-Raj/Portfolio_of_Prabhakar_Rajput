@@ -1,0 +1,102 @@
+
+#outer{
+    height:400px;
+    width:1050px;
+    background-color: aqua;
+    border: 2px solid;
+}
+#left{
+    height:360px;
+    width:650px;
+    background-color: white;
+    margin: 20px;
+    float: left;
+}
+#right{
+    height:360px;
+    width:300px;
+    background-color: white;
+    margin: 20px;
+    float:right;
+}
+hr{
+    width:600px
+}
+h1{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#sp1{
+    margin-right: 40px;
+    float:right;
+}
+#left1{
+    height:200px;
+    width:150px;
+    margin:10px;
+    margin-left: 20px;
+    float: left;
+    /* background-color: red; */
+}
+#left1 img{
+    height:180px;
+    width: 140px;
+    margin: 5px;
+}
+#left2{
+    height:200px;
+    width:300px;
+    margin:10px;
+    float: left;
+    /* background-color:blue; */
+}
+#left3{
+    height:200px;
+    width:115px;
+    margin:10px;
+    float: left;
+    /* background-color: red; */
+}
+#sp{
+    font-size: 12px;
+}
+
+select{
+    border-radius: 5px;
+    height: 20px;
+    background-color: rgb(91, 115, 91);
+}
+#h2{
+    float: right;
+    margin-top:-4px;
+    margin-right:20px;
+}
+#sp2{
+    margin-left:420px;
+}
+
+#h3{
+    margin-top:-23px;
+    margin-left: 150px;
+}
+#h{
+    margin-left: 30px;
+}
+#btn1{
+    height: 40px;
+    width:250px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color:orange;
+    border-radius: 10px;
+}
+#btn2{
+    height: 40px;
+    width:250px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.rp{
+    margin-left:20px;
+	margin-top:15px;
+}

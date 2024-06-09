@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/home.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio/Home</title>
+    <link rel="stylesheet" href="./Portfolio_Home_files/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/intro.html" target="_blank">MyIntro</a></li>
+                    <li><a href="http://127.0.0.1:5500/services.html" target="_blank">MyServices</a></li>
+                    <li><a href="http://127.0.0.1:5500/projects.html" arget="_blank">MyProjects</a></li>
+                    <li><a href="http://127.0.0.1:5500/partners.html" target="_blank">MyPartners</a></li>
+                    <li><a href="http://127.0.0.1:5500/blog.html" target="_blank">MyBlogs</a></li>
+                    <li><a href="http://127.0.0.1:5500/contact.html" target="_blank">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img src="./Portfolio_Home_files/ham.png" alt="" class="ham" width="23">
+                <img src="./Portfolio_Home_files/cross.png" alt="" class="cross" width="23" style="display: none;">
+            </div>
+            <div class="infoContainer">
+                <div class="devInfo">
+                    <div class="hello">Hi I am </div>
+                    <div class="name">Er. Prabhakar Rajput</div>
+                    <div class="about">Developer, Enterpreneur, White/Black Hat Haker, Gamer.</div>
+                    <div class="moreAbout">My self <strong>Prabhakar Rajput</strong>.
+                        I"m frome Kalyanpur, Ekdil, Etawah (Uttar Pradesh) 206126.
+                        I love eat soulty apple.
+                        My hobies are travling, musice listnig, stay deserted place.
+                    </div>
+                    <div class="buttons">
+                        <a href="http://127.0.0.1:5500/MyResume.docx" target="_blank"><button>Download Resume / CV</button></a>
+                        <a href="http://127.0.0.1:5500/contact.html" target="_blank"><button>Contact me</button></a>
+                    </div>
+                </div>
+                <div class="devPic"><img src="./Portfolio_Home_files/p.png" alt="Er. Prabhakar"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./Portfolio_Home_files/index.js.download"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

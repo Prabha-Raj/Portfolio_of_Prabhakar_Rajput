@@ -1,0 +1,47 @@
+
+
+
+img{
+	background:none;
+	opacity:1;
+}
+#main{
+	height:800px;
+	width:800px;
+	margin:0 auto;
+}
+#fdiv{
+	height:S50px;
+	width:450px;
+}
+#mid1{
+	height:200px;
+}
+#mid{
+	height:450px;
+	width:500px;
+	border-radius:5px;
+	box-shadow:-1px 2px 4px 0px;
+	background-color:whitesmoke;	
+}
+#btn{
+	background-color:dodgerblue;
+	font-size:20px;
+	border-radius:5px;
+	color:white;
+}
+input{
+	width:100%;
+	height:8%;
+}
+#ch{
+	height:15px;
+	width:15px;	
+	float:left;
+}
+#sp1{
+	float:left;
+}
+#sp2{
+	float:right;
+}

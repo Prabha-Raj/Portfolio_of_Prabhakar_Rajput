@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sk-Pr-Fitness</title>
+    
+    <style>
+        /* CSS Reset */
+        /* @import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap'); */
+        /* @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap'); */
+        @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+        body {
+            /* font-family: 'Island Moments', cursive; */
+            font-family: 'Titillium Web', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('gym.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 2300px;
+            height: 1300px;
+        }
+        .left {
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 26px;
+            position: absolute;
+            left: 18px;
+            top: 12px;
+        }
+        .mid {
+            display: block;
+            width: 43%;
+            margin: 29px auto;
+            /* border: 2px solid green; */
+            border-radius: 19px;
+        }
+        .right {
+            display: inline-block;
+            border: 2px solid yellow;
+            position: absolute;
+            right: 34px;
+            top: 12px;
+        }
+        .navbar {
+            display: inline-block;
+        }
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 35px;
+            /* position:center ; */
+        }
+        .navbar li a:hover,.navbar li a:active {
+            text-decoration: red underline;
+            color: aqua;
+        }
+
+        .left img {
+            width: 90px;
+        }
+
+        .img {
+            width: 5000px;
+            border-radius: 18px;
+        }
+
+        .right {
+            border: 2px solid yellow;
+            margin: 2px 2px;
+            height: 150px;
+            border: none;
+        }
+
+        .btn {
+            margin: 0px 2px;
+            background-color: black;
+            border: 4px solid grey;
+            border-radius: 25px;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            width: 200px;
+            font-size: 20px;
+            line-height: 14px;
+            font-family: 'Titillium Web', sans-serif;
+        }
+
+        button p:hover {
+            color: cyan;
+            text-decoration: red underline;
+            width: 190px;
+
+        }
+
+        .btn .com:hover {
+            width: 195px;
+
+        }
+
+        .btn:hover {
+            border-color: yellow;
+            border-radius: 40px;
+        }
+
+        .container {
+            border: 2px solid white;
+            color: white;
+            text-align: center;
+            margin: 106px 80px;
+            padding: 80px;
+            width: 33%;
+            border-radius: 28px;
+        }
+        h1{
+            color: red;
+            text-align: center;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 500px;
+            padding: 1px;
+            margin: 11px auto;
+            border: 2px solid black;
+            border-radius: 13px;
+            font-size: 23px;
+            font-family: 'Titillium Web', sans-serif;
+        }
+        .form-group input:hover{
+            border: 3px solid green;
+            width: 550px;
+        }
+        .container .btn{
+            display: block;
+            width: 500px;
+            padding: 1px;
+            margin: 11px auto;
+            border: 3px solid grey;
+            font-size: 26px;
+            line-height: 35px;
+        }
+        .container .btn:hover{
+            width: 550px;
+            border-color: yellow;
+            border-radius: 40px;
+            color: cyan;
+            text-decoration: red underline;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Left box for logo  -->
+        <div class="left">
+            <img src="logo.jpeg" alt="">
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- Right box fox buttons -->
+        <div class="right">
+            <button class="btn">
+                <P class="com">Comment Now</P>
+            </button>
+            <button class="btn">
+                <P>Sand E-Male</P>
+            </button>
+        </div>
+    </header>
+    <footer>
+        <div class="container">
+            <h1>Join the best fitness center of Delhi</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your good name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your gendar">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your mobile number">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your address">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your goal">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<title>Wether application</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="outer">
+        <div class="card"></div>
+        <div class="search">
+            <input id="sbox" type="text"  placeholder="   		Enter City Name" />
+            <button id="sbtn" onclick="fun()"><img src="img/search.png" /></button>
+        </div>
+        <div class="weather">
+            <img class="weather-icon" src="img/rain.png" />
+			<h1 class="temp">50℃</h1>
+            <h2 class="city">New York</h2>
+			<div class="detail">
+				<div class="col">
+					<img id="humimg" src="img/humidity.png" />
+					<div>
+						<p class="humidity">50 %</p>
+						<p id="humi">Humidity</p>
+					</div>
+				</div>
+				<div class="col">
+					<img id="wimg" src="img/wind.png" />
+				</div>
+				<div >
+					<p id="wspeed" class="wind"> 50 km/h</p>
+					<p id="wind" >Wind Speed</p>
+				</div>
+			</div>
+		</div>
+    </div>
+
+    <script src="js/script.js" type="text/javascript" rel="javascript">
+
+    </script>
+
+</body>
+
+</html>

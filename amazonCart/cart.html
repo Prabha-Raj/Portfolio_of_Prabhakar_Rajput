@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Amazon Cart</title>
+    <link rel="stylesheet" href="css/cart.css" type="text/css">
+</head>
+
+<body>
+    <div id="outer">
+        <div id="left">
+            <h1>Shopping Cart</h1>
+            <span id="sp1">Price</span>
+            <hr />
+            <div id="left1">
+                <img src="img/phone.png" alt="phone" />
+            </div>
+
+            <div id="left2">
+                <h5>Fire-Boltt Ninja Call Pro 1.83" Smart Watch With Bluetooth Calling Al Voice Assistance, 100 Sports Modes IP67 Rating,<br/> 240*2<br/> <span style="color: red;">In Stock</span><br><span>Eligible fo FREE Shipping</span><br>       <input type="checkbox" /><span>&nbsp;This will be a gift Learn more</span>
+                <br><span>Colour:Black</span> </h5>         
+                <select id="sel" onchange="fun()">
+                    <option value="1">qty : 1</option>
+                    <option value="2">qty : 2</option>
+                    <option value="3">qty : 3</option>
+                    <option value="4">qty : 4</option>
+                    <option value="5">qty : 5</option>
+                    <option value="6">qty : 6</option>
+                </select>  <span id="sp">|Delete |Save for later |See more like this               
+                    |Share</span>
+             
+            </div>
+            <div id="left3">
+                <h2 id="h">45999</h2>
+            </div>
+                <hr />
+                <span id="sp2">Subtotale( <span id="sp3"></span> items): </span><span><h2 id="h2"></h2></span>
+        </div>
+        <div id="right">
+            <h4 class="rp">⊛ Your order is eligible for FREE Delivery. Select this option at checkout. Details</h4>
+            <span id="sp4" class="rp">Subtotale(  <span id="sp5"></span> items): 
+            <h2 id="h3"></h2></span>
+            <input type="checkbox"  class="rp"/>
+            <span>&nbsp;This will be a gift Learn more<span>
+            <input type="button" id="btn1" value="Proceed to Buy" />
+            <input type="button" id="btn2" value="EMI Available" />
+        </div>
+    </div> 
+    <script src="js/cart.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,965 @@
+
+#main{
+	height:100%;
+	width:100%;
+	position:relative;
+}
+
+/* CSS of Indian clock*/
+.imain{
+	height:250px;
+	width:250px;
+	position:absolute;
+	
+}
+#india{
+	position:absolute;
+	height:50px;
+	width:200px;
+	top:200px;
+	left:10px;
+	background-color:pink;
+	border-radius:50px;
+	border:2px solid black;
+	text-align:center;
+}
+
+#china{
+	position:absolute;
+	height:50px;
+	width:200px;
+	top:200px;
+	left:300px;
+	background-color:red;
+	border-radius:50px;
+	border:2px solid black;
+	text-align:center;
+}
+
+#usa{
+	position:absolute;
+	height:50px;
+	width:200px;
+	top:200px;
+	left:580px;
+	border:2px solid black;
+	border-radius:50px;
+	text-align:center;
+	background-color:pink;
+}
+
+#london{
+	position:absolute;
+	height:50px;
+	width:200px;
+	top:200px;
+	left:860px;
+	border-radius:50px;
+	border:2px solid black;
+	text-align:center;
+	background-color:red;
+}
+
+#outer {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: black;
+	margin: 0 20px;
+	position: absolute;
+}
+
+.no {
+	width: 5px;
+	font-size: 20px;
+	position: absolute;
+	color:white;
+}
+
+#xii {
+	top: -2px;
+	right: 107px;
+	font-size: 26px
+}
+
+#i {
+	top: 9px;
+	right: 52px;
+}
+
+#ii {
+	top: 43px;
+	right: 19px;
+}
+
+#iii {
+		top: 86px;
+	right: 9px;
+	font-size: 30px;
+}
+
+#iv {
+	bottom: 38px;
+	right: 23px;
+}
+
+#v {
+	bottom: 7px;
+	right: 52px;
+}
+
+#vi {
+	bottom: -5px;
+	right: 97px;
+	font-size: 28px;
+}
+
+#vii {
+	bottom: 5px;
+	left: 52px;
+}
+
+#viii {
+	bottom: 33px;
+	left: 18px;
+}
+
+#ix {
+	top: 91px;
+	left: 1px;
+	font-size: 28px;
+}
+
+#x {
+	top: 46px;
+	left: 10px;
+	font-size: 18px;
+}
+
+#xi {
+	top: 11px;
+	left: 43px;
+	font-size: 18px;
+}
+
+#inner {
+	height: 140px;
+	width: 140px;
+	border: 1px solid black;
+	border-radius: 70px;
+	margin: 30px auto;
+	background-color:yellow;
+/*	background-image:url("../img/bibg.png");  */
+	background-size:190px;
+	background-repeat:no-repeat;
+	background-position:center;
+	position: absolute;
+	right: 29px;
+	top: 0px;
+	
+}
+#name1{
+	position:absolute;
+	left:28px;
+	top:10px;
+	font-size: medium;
+	justify-content: center;
+}
+#name2{
+	position:absolute;
+	left:55px;
+	top:5px;
+	font-size: medium;
+	justify-content: center;
+}
+
+#point {
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background-color: red;
+	margin: 60px auto;
+	position: absolute;
+	top: 2px;
+	left: 60px;
+}
+
+#hr {
+	transform-origin: bottom;
+	position: absolute;
+	top: 12px;
+	left: 67px;
+	height: 60px;
+	width: 6px;
+	background-color: black;
+}
+
+#min {
+	transform-origin: bottom;
+	position: absolute;
+	top: 4px;
+	left: 68px;
+	height: 69px;
+	width: 4px;
+	background-color: green;
+}
+
+#sec {
+	transform-origin: bottom;
+	position: absolute;
+	bottom: 69px;
+	left: 69.5px;
+	height: 80px;
+	width: 2px;
+	background-color: red;
+}
+
+
+
+
+/* CSS of Chinise clock*/
+#couter {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: black;
+	margin: 0 20px;
+	position: absolute;
+	top:px;
+	left:280px;
+	
+}
+
+.cno {
+	width: 5px;
+	font-size: 20px;
+	position: absolute;
+	color:white;
+}
+
+#cinner {
+	height: 140px;
+	width: 140px;
+	border: 1px solid black;
+	border-radius: 70px;
+	background-color:yellow;
+/*	background-image:url("../img/bibg.png");  */
+	background-size:190px;
+	background-repeat:no-repeat;
+	background-position:center;
+	position: absolute;
+	right: 29px;
+	top: 30px;
+	
+}
+#cname1{
+	position:absolute;
+	left:28px;
+	top:10px;
+	font-size: medium;
+	justify-content: center;
+}
+#cname2{
+	position:absolute;
+	left:55px;
+	top:5px;
+	font-size: medium;
+	justify-content: center;
+}
+
+#cpoint {
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background-color: red;
+	margin: 60px auto;
+	position: absolute;
+	top: 2px;
+	left: 60px;
+}
+
+#chr {
+	transform-origin: bottom;
+	position: absolute;
+	top: 12px;
+	left: 67px;
+	height: 60px;
+	width: 6px;
+	background-color: black;
+}
+
+#cmin {
+	transform-origin: bottom;
+	position: absolute;
+	top: 4px;
+	left: 68px;
+	height: 69px;
+	width: 4px;
+	background-color: green;
+}
+
+#csec {
+	transform-origin: bottom;
+	position: absolute;
+	bottom: 69px;
+	left: 69.5px;
+	height: 80px;
+	width: 2px;
+	background-color: white;
+}
+
+
+
+
+/* CSS of USA clock*/
+#usouter {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color:blue;
+	margin: 0 20px;
+	position: absolute;
+	top:px;
+	left:560px;
+	
+}
+
+.usno {
+	width: 5px;
+	font-size: 20px;
+	position: absolute;
+	color:yellow;
+}
+
+#usinner {
+	height: 140px;
+	width: 140px;
+	border: 1px solid black;
+	border-radius: 70px;
+	background-color:yellow;
+/*	background-image:url("../img/bibg.png");  */
+	background-size:240px;
+	background-repeat:no-repeat;
+	background-position:center;
+	position: absolute;
+	right: 29px;
+	top: 30px;
+	
+}
+#usname1{
+	position:absolute;
+	left:40px;
+	bottom:0px;
+	font-size: medium;
+	justify-content: center;
+}
+#usname2{
+	position:absolute;
+	left:55px;
+	bottom:25px;
+	font-size: medium;
+	justify-content: center;
+}
+
+#uspoint {
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background-color: red;
+	margin: 60px auto;
+	position: relative;
+	top: 60px;
+	left: 60px;
+}
+
+#ushr {
+	transform-origin: bottom;
+	position: absolute;
+	top: -1px;
+	left: 67px;
+	height: 60px;
+	width: 6px;
+	background-color: black;
+}
+
+#usmin {
+	transform-origin: bottom;
+	position: absolute;
+	top: -10	px;
+	left: 8px;
+	height: 80px;
+	width: 4px;
+	background-color: black;
+}
+
+#ussec {
+	transform-origin: bottom;
+	position: absolute;
+	bottom: -100px;
+	left: 69px;
+	height: 86px;
+	width: 2px;
+	background-color: black;
+}
+
+
+
+ 
+
+/* CSS of USA clock*/
+#louter {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color:hotpink;
+	margin: 0 20px;
+	position: absolute;
+	top:px;
+	left:830px;
+	
+}
+
+.lno {
+	width: 5px;
+	font-size: 20px;
+	position: absolute;
+	color:black;
+}
+
+#linner {
+	height: 140px;
+	width: 140px;
+	border: 1px solid black;
+	border-radius: 70px;
+	background-color:yellow;
+/*	background-image:url("../img/bibg.png");  */
+	background-size:240px;
+	background-repeat:no-repeat;
+	background-position:center;
+	position: absolute;
+	right: 29px;
+	top: 30px;
+	
+}
+#lname1{
+	position:absolute;
+	left:40px;
+	bottom:0px;
+	font-size: medium;
+	justify-content: center;
+}
+#lname2{
+	position:absolute;
+	left:45px;
+	bottom:10px;
+	font-size: medium;
+	justify-content: center;
+	color:aqua;
+}
+
+#lpoint {
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background-color: red;
+	margin: 60px auto;
+	position: absolute;
+	top: 1px;
+	left: 60px;
+}
+
+#lhr {
+	transform-origin: bottom;
+	position: absolute;
+	top: 10px;
+	left: 67px;
+	height: 60px;
+	width: 6px;
+	background-color: black;
+}
+
+#lmin {
+	transform-origin: bottom;
+	position: absolute;
+	top: px;
+	left: 68px;
+	height: 80px;
+	width: 4px;
+	background-color: black;
+}
+
+#lsec {
+	transform-origin: bottom;
+	position: absolute;
+	bottom: 69px;
+	left: 69.5px;
+	height: 86px;
+	width: 2px;
+	background-color: black;
+}
+
+#main{
+	height:100%;
+	width:100%;
+	position:relative;
+}
+
+/* CSS of Indian clock*/
+#imain{
+	height:250px;
+	width:250px;
+	position:absolute;
+	
+}
+#india{
+	position:absolute;
+	height:50px;
+	width:200px;
+	top:200px;
+	background-color:pink;
+}
+#outer {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: black;
+	margin: 0 20px;
+	position: absolute;
+}
+
+.no {
+	width: 5px;
+	font-size: 20px;
+	position: absolute;
+	color:white;
+}
+
+#xii {
+	top: -2px;
+	right: 107px;
+	font-size: 26px
+}
+
+#i {
+	top: 9px;
+	right: 52px;
+}
+
+#ii {
+	top: 43px;
+	right: 19px;
+}
+
+#iii {
+	top: 86px;
+	right: 9px;
+	font-size: 30px;
+}
+
+#iv {
+	bottom: 38px;
+	right: 23px;
+}
+
+#v {
+	bottom: 7px;
+	right: 52px;
+}
+
+#vi {
+	bottom: -5px;
+	right: 97px;
+	font-size: 28px;
+}
+
+#vii {
+	bottom: 5px;
+	left: 52px;
+}
+
+#viii {
+	bottom: 33px;
+	left: 18px;
+}
+
+#ix {
+	top: 91px;
+	left: 1px;
+	font-size: 28px;
+}
+
+#x {
+	top: 46px;
+	left: 10px;
+	font-size: 18px;
+}
+
+#xi {
+	top: 11px;
+	left: 43px;
+	font-size: 18px;
+}
+
+#inner {
+	height: 140px;
+	width: 140px;
+	border: 1px solid black;
+	border-radius: 70px;
+	margin: 30px auto;
+	background-color:yellow;
+/*	background-image:url("../img/bibg.png");  */
+	background-size:190px;
+	background-repeat:no-repeat;
+	background-position:center;
+	position: absolute;
+	right: 29px;
+	top: 0px;
+	
+}
+#name1{
+	position:absolute;
+	left:28px;
+	top:10px;
+	font-size: medium;
+	justify-content: center;
+}
+#name2{
+	position:absolute;
+	left:55px;
+	top:5px;
+	font-size: medium;
+	justify-content: center;
+}
+
+#point {
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background-color: red;
+	margin: 60px auto;
+	position: absolute;
+	top: 2px;
+	left: 60px;
+}
+
+#hr {
+	transform-origin: bottom;
+	position: absolute;
+	top: 12px;
+	left: 67px;
+	height: 60px;
+	width: 6px;
+	background-color: black;
+}
+
+#min {
+	transform-origin: bottom;
+	position: absolute;
+	top: 4px;
+	left: 68px;
+	height: 69px;
+	width: 4px;
+	background-color: green;
+}
+
+#sec {
+	transform-origin: bottom;
+	position: absolute;
+	bottom: 69px;
+	left: 69.5px;
+	height: 80px;
+	width: 2px;
+	background-color: red;
+}
+
+
+
+
+/* CSS of Chinise clock*/
+#couter {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: black;
+	margin: 0 20px;
+	position: absolute;
+	top:px;
+	left:280px;
+	
+}
+
+.cno {
+	width: 5px;
+	font-size: 20px;
+	position: absolute;
+	color:white;
+}
+
+#cinner {
+	height: 140px;
+	width: 140px;
+	border: 1px solid black;
+	border-radius: 70px;
+	background-color:yellow;
+/*	background-image:url("../img/bibg.png");  */
+	background-size:190px;
+	background-repeat:no-repeat;
+	background-position:center;
+	position: absolute;
+	right: 29px;
+	top: 30px;
+	
+}
+#cname1{
+	position:absolute;
+	left:28px;
+	top:10px;
+	font-size: medium;
+	justify-content: center;
+}
+#cname2{
+	position:absolute;
+	left:55px;
+	top:5px;
+	font-size: medium;
+	justify-content: center;
+}
+
+#cpoint {
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background-color: red;
+	margin: 60px auto;
+	position: absolute;
+	top: 2px;
+	left: 60px;
+}
+
+#chr {
+	transform-origin: bottom;
+	position: absolute;
+	top: 12px;
+	left: 67px;
+	height: 60px;
+	width: 6px;
+	background-color: black;
+}
+
+#cmin {
+	transform-origin: bottom;
+	position: absolute;
+	top: 4px;
+	left: 68px;
+	height: 69px;
+	width: 4px;
+	background-color: green;
+}
+
+#csec {
+	transform-origin: bottom;
+	position: absolute;
+	bottom: 69px;
+	left: 69.5px;
+	height: 80px;
+	width: 2px;
+	background-color: white;
+}
+
+
+
+
+/* CSS of USA clock*/
+#usouter {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color:blue;
+	margin: 0 20px;
+	position: absolute;
+	top:px;
+	left:560px;
+	
+}
+
+.usno {
+	width: 5px;
+	font-size: 20px;
+	position: absolute;
+	color:yellow;
+}
+
+#usinner {
+	height: 140px;
+	width: 140px;
+	border: 1px solid black;
+	border-radius: 70px;
+	background-color:yellow;
+/*	background-image:url("../img/bibg.png");  */
+	background-size:240px;
+	background-repeat:no-repeat;
+	background-position:center;
+	position: absolute;
+	right: 29px;
+	top: 30px;
+	
+}
+#usname1{
+	position:absolute;
+	left:40px;
+	bottom:0px;
+	font-size: medium;
+	justify-content: center;
+}
+#usname2{
+	position:absolute;
+	left:55px;
+	bottom:25px;
+	font-size: medium;
+	justify-content: center;
+}
+
+#uspoint {
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background-color: red;
+	margin: 60px auto;
+	position: absolute;
+	top:5px;
+	left: 60px;
+}
+
+#ushr {
+	transform-origin: bottom;
+	position: absolute;
+	top: 14px;
+	left: 67px;
+	height: 60px;
+	width: 6px;
+	background-color: black;
+}
+
+#usmin {
+	transform-origin: bottom;
+	position: absolute;
+	top: 2px;
+	left: 68px;
+	height: 72px;
+	width: 4px;
+	background-color: black;
+}
+
+#ussec {
+	transform-origin: bottom;
+	position: absolute;
+	bottom: 66px;
+	left: 69.5px;
+	height: 86px;
+	width: 2px;
+	background-color: black;
+}
+
+
+
+ 
+
+/* CSS of USA clock*/
+#louter {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color:hotpink;
+	margin: 0 20px;
+	position: absolute;
+	top:px;
+	left:830px;
+	
+}
+
+.lno {
+	width: 5px;
+	font-size: 20px;
+	position: absolute;
+	color:black;
+}
+
+#linner {
+	height: 140px;
+	width: 140px;
+	border: 1px solid black;
+	border-radius: 70px;
+	background-color:yellow;
+/*	background-image:url("../img/bibg.png");  */
+	background-size:240px;
+	background-repeat:no-repeat;
+	background-position:center;
+	position: absolute;
+	right: 29px;
+	top: 30px;
+	
+}
+#lname1{
+	position:absolute;
+	left:40px;
+	bottom:0px;
+	font-size: medium;
+	justify-content: center;
+}
+#lname2{
+	position:absolute;
+	left:45px;
+	bottom:10px;
+	font-size: medium;
+	justify-content: center;
+	color:aqua;
+}
+
+#lpoint {
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background-color: red;
+	margin: 60px auto;
+	position: absolute;
+	top: px;
+	left: 60px;
+}
+
+#lhr {
+	transform-origin: bottom;
+	position: absolute;
+	top: 10px;	
+	left: 67px;
+	height: 60px;
+	width: 6px;
+	background-color: black;
+}
+
+#lmin {
+	transform-origin: bottom;
+	position: absolute;
+	top: -10px;
+	left: 68px;
+	height: 80px;
+	width: 4px;
+	background-color: black;
+}
+
+#lsec {
+	transform-origin: bottom;
+	position: absolute;
+	bottom: 70px;
+	left: 69.5px;
+	height: 86px;
+	width: 2px;
+	background-color: black;
+}

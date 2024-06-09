@@ -1,0 +1,121 @@
+#outer{
+	height:200px;
+	width:200px;
+	border:1px solid black;
+	border-radius:100px;
+	background-color:pink;
+	margin:0 auto;
+	position:relative;
+}
+.no{
+	height:;
+	width:5px;
+	font-size:20px;
+	position:absolute;
+}
+#xii{
+	top:-2px;
+	right:107px;
+	font-size:26px
+}
+#i{
+	top:9px;
+	right:52px;
+}
+#ii{
+	top:43px;
+	right:19px;
+}
+#iii{
+	top:86px;
+	right:9px;
+	font-size:30px;
+}
+#iv{
+	bottom:38px;
+	right:23px;
+}
+#v{
+	bottom:7px;
+	right:52px;
+}
+#vi{
+	bottom:-5px;
+	right:97px;
+	font-size:28px;
+}
+#vii{
+	bottom:5px;
+	left:52px;
+}
+#viii{
+	bottom:33px;
+	left:18px;
+}
+#ix{
+	top:91px;
+	left:1px;
+	font-size:28px;
+}
+#x{
+	top:46px;
+	left:10px;
+	font-size:18px;
+}
+#xi{
+	top:11px;
+	left:43px;
+	font-size:18px;
+}
+
+#inner{
+	height:140px;
+	width:140px;
+	border:1px solid black;
+	border-radius:70px;
+	margin:30px auto;
+	background-color:yellow;
+	position:absolute;
+	right:29px;
+	top:0px;
+}
+#point{
+		height:20px;
+		width:20px;
+		border-radius:10px;
+		background-color:red;
+		margin:60px	 auto;
+		position:absolute;
+		top:2px;
+		left:60px;
+}
+
+#hr{
+	transform-origin:bottom;
+	position:absolute;
+	top:12px;
+	left:67px;
+	height:60px;
+	width:6px;
+	background-color:black;
+}
+
+#min{
+	transform-origin:bottom;
+	position:absolute;
+	top:4px;
+	left:68px;
+	height:69px;
+	width:4px;
+	background-color:green;
+}
+
+#sec{
+	transform-origin:bottom;
+	position:absolute;
+	bottom:69px;
+	left:69.5px;
+	height:80px;
+	width:2px;
+	background-color:red;
+}
